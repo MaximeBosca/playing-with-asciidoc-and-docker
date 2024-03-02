@@ -1,0 +1,6 @@
+== Generate
+Generate talk slides using :
+[source, bash]
+----
+docker run -it -u $(id -u):$(id -g) --mount type=bind,source=$PWD/conference-files,target=/documents asciidoctor/docker-asciidoctor
+----
