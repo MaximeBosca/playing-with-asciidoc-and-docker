@@ -27,7 +27,7 @@ jobs :
           image: asciidoctor/docker-asciidoctor:latest
           options: -v ${{ github.workspace}}/conference-files:/documents
           run: |
-            asciidoctor-revealjs /documents/sample.adoc
+            asciidoctor-revealjs /documents/index.adoc
 
       - name: Copy build to folder
         run : |
