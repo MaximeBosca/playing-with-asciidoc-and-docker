@@ -21,18 +21,31 @@ jobs :
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Checkout reveal.js
+        uses: actions/checkout@v3
+        with:
+          repository: hakimel/reveal.js
+          ref: 4.2.0
+          path: reveal.js
+
+      - name: Build reveal.js 🛎️
+        run: npm ci && rm -rf node_modules\
+        working-directory: reveal.js
+
       - name: Build talk pages
         uses: addnab/docker-run-action@v3
         with:
           image: asciidoctor/docker-asciidoctor:latest
-          options: -v ${{ github.workspace}}/conference-files:/documents
+          options: -v ${{ github.workspace}}/talk-pages:/documents
           run: |
             asciidoctor-revealjs /documents/index.adoc
 
       - name: Copy build to folder
         run : |
-          mkdir -p build/ && \
-          cp -r conference-files/*.html build/
+          mkdir -p build/reveal.js/dist && \
+          cp -r talk-pages/*.html build/ \
+          cp -r reveal.js/dist/* build/reveal.js/dist/ && \
+          cp -r reveal.js/plugin build/reveal.js/
         working-directory: .
 
       - name: Deploy
