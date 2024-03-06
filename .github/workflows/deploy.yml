@@ -43,7 +43,7 @@ jobs :
       - name: Copy build to folder
         run : |
           mkdir -p reveal.js/dist/theme/images && \
-          cp talk-pages/theme/logo-onepoint.png reveal.js/dist/theme/images/ && \
+          cp talk-pages/theme/onepoint-logo.png reveal.js/dist/theme/images/ && \
           cp talk-pages/theme/gop.css reveal.js/dist/theme/ && \          
           mkdir -p build/reveal.js/dist && \
           cp -r talk-pages/*.html talk-pages/images build/ && \
