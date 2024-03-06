@@ -1,3 +1,9 @@
+== Slides
+
+Les slides peuvent être trouvées ici :
+
+https://maximebosca.github.io/playing-with-asciidoc-and-docker/
+
 == Generate
 Generate talk slides using :
 [source, bash]
