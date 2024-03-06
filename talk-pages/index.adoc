@@ -1,20 +1,6 @@
 = Test
+:source-highlighter: highlight.js
+:revealjs_theme: gop
 
-This is a test to see if asciidoc is producing something (it is not)
-
-== Slide Une
-Ici j'écris ma slide une. Celle ci comprend une liste :
-
-* Toto
-* Foo
-* Bar
-
-== Slide deux
-Par ici la suite.
-On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
-
-[.notes]
---
-* Let's tell a story
---
-
+include::test-slide.adoc[]
+include::i_love_the_doors.adoc[]
