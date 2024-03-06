@@ -1,5 +1,7 @@
 = Test
 :revealjs_theme: gop
+:revealjs_slideNumber: true
+:revealjs_pdfseparatefragments: false
 
 include::test-slide.adoc[]
 include::i_love_the_doors.adoc[]
