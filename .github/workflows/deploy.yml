@@ -44,7 +44,7 @@ jobs :
         run : |
           mkdir -p reveal.js/dist/theme/images && \
           cp talk-pages/theme/logo-op.png reveal.js/dist/theme/images/ && \
-          cp talk-pages/theme/gop.css reveal.js/dist/theme/ && \          
+          cp talk-pages/theme/gop.css reveal.js/dist/theme/ && \
           mkdir -p build/reveal.js/dist && \
           cp -r talk-pages/*.html talk-pages/images build/ && \
           cp -r reveal.js/dist/* build/reveal.js/dist/ && \
