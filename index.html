@@ -415,12 +415,9 @@ ul.byline li + li {
 }
 </style></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Test</h1><div class="preamble"><div class="paragraph"><p>This is a test to see if asciidoc is producing something (it is not)</p></div></div></section>
 <section id="_slide_une"><h2>Slide Une</h2><div class="slide-content"><div class="paragraph"><p>Ici j&#8217;écris ma slide une. Celle ci comprend une liste :</p></div>
-<div class="ulist"><ul><li><p>Toto</p></li><li><p>Foo</p></li><li><p>Bar</p></li></ul></div></div></section>
-<section><section id="_slide_deux"><h2>Slide deux</h2></section><section><div class="slide-content"><div class="paragraph"><p>Par ici la suite.
-On aime bien les textes ici. En fait on dirait du <strong>.md</strong> <strong>Italiiiique</strong></p></div>
-<aside class="notes"><div class="ulist"><ul><li><p>Let&#8217;s tell a story</p></li></ul></div></aside></div></section><section><div class="slide-content"><div class="paragraph"><p>toto
-== This is the doors</p></div>
-<div class="imageblock"><img src="images/test-picture.png" alt="test picture"></div></div></section></section></div></div><script src="reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
+<div class="ulist"><ul><li><p>Toto</p></li><li><p>Foo</p></li><li><p>Bar
+== This is the doors</p></li></ul></div>
+<div class="imageblock"><img src="images/test-picture.png" alt="test picture"></div></div></section></div></div><script src="reveal.js/dist/reveal.js"></script><script>Array.prototype.slice.call(document.querySelectorAll('.slides section')).forEach(function(slide) {
   if (slide.getAttribute('data-background-color')) return;
   // user needs to explicitly say he wants CSS color to override otherwise we might break custom css or theme (#226)
   if (!(slide.classList.contains('canvas') || slide.classList.contains('background'))) return;
