@@ -76,7 +76,7 @@ body {
   background-color: #FAFAFA; }
 
 body:after {
-  content: url("images/logo-onepoint.png");
+  content: url("images/logo-op.png");
   position: fixed;
   left: 0;
   bottom: 0;

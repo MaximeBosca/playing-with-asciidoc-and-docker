@@ -6,19 +6,3 @@ Ici j'écris ma slide une. Celle ci comprend une liste :
 * Toto
 * Foo
 * Bar
-
-== Slide deux
-
-=== !
-
-Par ici la suite.
-On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
-
-[.notes]
---
-* Let's tell a story
---
-
-=== !
-
-toto
