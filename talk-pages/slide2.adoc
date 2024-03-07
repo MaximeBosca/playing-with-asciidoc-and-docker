@@ -11,13 +11,6 @@ On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
 * Let's tell a story
 --
 
-=== not data in progress
-
-[%interactive]
-- [ ] Dig
-- [x] Plant
-- [ ] Hose
-
 === data in progress
 
 [%interactive,data-state=in-progress]
@@ -26,7 +19,7 @@ On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
 - [ ] Hose
 
 
-=== data concept square root
+=== data concept not square root
 
 [stem]
 ++++
