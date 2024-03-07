@@ -26,14 +26,14 @@ On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
 - [ ] Hose
 
 
-== data concept square root
+=== data concept square root
 
 [stem]
 ++++
 \sqrt{37} = \sqrt{\frac{73^2-1}{12^2}} \approx \frac{73}{12} (1 - \frac{1}{2\cdot73^2})
 ++++
 
-== data concept square root
+=== data concept square root
 
 [stem,data-algebra-concept=square-root]
 ++++
