@@ -10,6 +10,34 @@ On aime bien les textes ici. En fait on dirait du *.md* **Italiiiique**
 * Let's tell a story
 --
 
-=== !
+=== not data in progress
+
+[%interactive]
+- [ ] Dig
+- [x] Plant
+- [ ] Hose
+
+=== data in progress
+
+[%interactive,data-state=in-progress]
+- [ ] Dig
+- [x] Plant
+- [ ] Hose
+
+
+== data concept square root
+
+[stem]
+++++
+\sqrt{37} = \sqrt{\frac{73^2-1}{12^2}} \approx \frac{73}{12} (1 - \frac{1}{2\cdot73^2})
+++++
+
+== data concept square root
+
+[stem,data-algebra-concept=square-root]
+++++
+\sqrt{37} = \sqrt{\frac{73^2-1}{12^2}} \approx \frac{73}{12} (1 - \frac{1}{2\cdot73^2})
+++++
 
 toto
+
